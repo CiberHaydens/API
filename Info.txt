@@ -1,0 +1,4 @@
+Explicación codigo app.py
+Crea una aplicación Flask con dos rutas, 
+1- Ruta /usuarios devuelve una lsita de usuarios en formato JSON
+2- ruta /usaurios/<id> devuelve información detallada de un usuario especifico.
