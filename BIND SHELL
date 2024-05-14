@@ -1,4 +1,5 @@
 BIND SHELL:
+
 Create a simple http server with python: 
   python -m SimpleHTTPServer 80
 If connection to the target machine, download nc.exe(in this case is windows):
