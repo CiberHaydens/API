@@ -1,0 +1,5 @@
+Commands to enumerate
+- ipconfig /all (to get IP address and MAC/Physical Address)
+- route print ( capturar las tablas de enrutamiento, useful for pivoting phase) 
+- arp -a ( Display arp cache)
+- netstat -ano( Visualize a list of open ports used by services(shows PID of the proccess))
