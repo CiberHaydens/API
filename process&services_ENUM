@@ -1,0 +1,6 @@
+- ps (show process)
+- pgrep process( shows process ID) & migrate process_id (elevates privileges to process_id privs)
+- net start (list of running services)
+- wmic service list brief (shows running services in addition to the service name)
+- tasklist /SVC (enumerate a list of running tasks and the corresponding service)
+- schtasks /query /fo LIST (shows a list of the scheduled task configured)
