@@ -1,0 +1,5 @@
+- netstat (list of open ports on the target system)
+- route (list of routing tables)
+- cat /etc/networks ( list of configured networks and their subnets)
+- cat /etc/hosts (list of locally mapped domains and their respective IP address)
+- cat /etc/resolv.conf (Identify default DNS name servers address)
